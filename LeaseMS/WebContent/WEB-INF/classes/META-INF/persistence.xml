@@ -5,7 +5,7 @@
     <persistence-unit name="fms" transaction-type="RESOURCE_LOCAL">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 		<!--<jta-data-source>java:comp/env/ds/nipostDS</jta-data-source>-->
-        <!--<class>com.dexter.fms.model.ref.VendorType</class>-->
+        <class>com.iox.lms.model.Customer</class>
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
