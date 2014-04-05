@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.dexter.common.util;
+package com.iox.common.util;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;

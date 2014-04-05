@@ -1,4 +1,4 @@
-package com.dexter.common.util;
+package com.iox.common.util;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
